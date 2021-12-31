@@ -43,3 +43,23 @@ fun incrementDecrement(){
     println(--c)
     println(d--)
 }
+
+fun logicalOperators(){
+    val condition1  = true
+    val condition2 = false
+
+    println(condition1 || condition2)
+    println(condition1 && condition2)
+    println(!condition1)
+
+    var a = 10
+    val result1 = true || ++a==11
+    println(a)
+    val result2 = false && --a==10
+    println(a)
+    //In both the above cases the second condition/expression is not executed because the result can solely be decided by first condition
+    //this is called short-circuiting
+
+
+
+}
