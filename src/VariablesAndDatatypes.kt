@@ -24,4 +24,6 @@ fun dataTypes(){
     var isItRaining : Boolean = false
 
     //Float datatype values must end with F or f
+
+
 }
