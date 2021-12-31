@@ -20,4 +20,16 @@ fun ifElseIf(){
         //        //some code
         //    }
     //the above code gives error and can not be executed
+
+    //if else can return values
+    val result  = if(condition1){
+        "Condition one is true"
+    }else if(condition2){
+        "Condition two is true"
+    }else{
+        "Both conditions are false"
+    }
+    //the last expression of block is the return expression
+    println(result)
 }
+
