@@ -1,5 +1,5 @@
 fun main(){
     println("Hello World")
-    inputOutput()
+    arrays()
 }
 //kotlin is case-sensitive
