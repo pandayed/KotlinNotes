@@ -16,5 +16,8 @@ fun inputOutput(){
     //variables can also be print inside string by putting $ before them
     println("$n: ten")
     //to put expression in string, enclose that in {}
-    println("This is expression : ${n*2}")
+    println("This is an expression : ${n*2}")
+    //literals or variable can be put after a string without type conversion for printing
+    //in such cases + concatenates, it does not add
+    println("Ten: " + 10 + n)
 }
