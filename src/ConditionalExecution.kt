@@ -33,3 +33,30 @@ fun ifElseIf(){
     println(result)
 }
 
+fun switchCase(){
+    //In place of switch-case we have when
+    when(10){
+        10->{
+            println("The value is 10")
+        }
+        20->{
+            println("The value is 20")
+        }
+        else->{
+            println("Value not detected")
+        }
+    }
+
+    //like if else when can also return value
+    val result =  when(10){
+        10->{
+            "The value is 10"
+        }
+        20->{
+            "The value is 20"
+        }
+        else->{
+            "Value not detected"
+        }
+    }
+}
