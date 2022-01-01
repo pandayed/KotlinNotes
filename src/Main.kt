@@ -1,4 +1,5 @@
 fun main(){
-    print("Hello World")
-    logicalOperators()
+    println("Hello World")
+    loops()
 }
+//kotlin is case-sensitive
