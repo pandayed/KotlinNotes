@@ -1,5 +1,5 @@
 fun main(){
     println("Hello World")
-    myFun()
+    incrementDecrement()
 }
 //kotlin is case-sensitive

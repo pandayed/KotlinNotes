@@ -13,6 +13,8 @@ fun arithmeticOperators(){
     val c = a.toFloat()
     println(a)
     println(c)
+    //.plus
+    val d = a.plus(b)
 
 }
 
@@ -42,6 +44,7 @@ fun incrementDecrement(){
     var d = 2
     println(--c)
     println(d--)
+
 }
 
 fun logicalOperators(){
