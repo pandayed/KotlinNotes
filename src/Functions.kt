@@ -2,6 +2,7 @@ fun myFun():Unit{
     val res = adder(10, 20)
     println(res)
     sayMyName("Lal Bihari")
+    pets(pet2="Horse", pet1="Dog")
 }
 //default return type is Unit
 fun adder(x:Int, y:Int, z:Int=30):Int{
@@ -27,4 +28,9 @@ fun sayMyName(firstName: String){
 
 fun sayMyName(){
     println("No name passed")
+}
+
+//named arguments
+fun pets(pet1:String, pet2:String){
+    println("pet1: $pet1, pet2: $pet2")
 }
