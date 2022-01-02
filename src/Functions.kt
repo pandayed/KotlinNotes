@@ -37,7 +37,7 @@ fun pets(pet1:String, pet2:String){
 
 //in kotlin we can store functions in kotlin
 fun temporary(){
-    //right click -> show context actions -> specify type explicitly
+    //right click on identifier of variable -> show context actions -> specify type explicitly
     var funHold: (city: String) -> Unit = ::myCity
     funHold("Vrindavan")
     funHold = ::myState
