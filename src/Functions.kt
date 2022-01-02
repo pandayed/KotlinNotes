@@ -34,3 +34,19 @@ fun sayMyName(){
 fun pets(pet1:String, pet2:String){
     println("pet1: $pet1, pet2: $pet2")
 }
+
+//in kotlin we can store functions in kotlin
+fun temporary(){
+    //right click -> show context actions -> specify type explicitly
+    var funHold: (city: String) -> Unit = ::myCity
+    funHold("Vrindavan")
+    funHold = ::myState
+    //funHold can store any function with same parameter list
+
+}
+fun myCity(city:String){
+    println(city)
+}
+fun myState(state:String){
+    println("State: $state")
+}
