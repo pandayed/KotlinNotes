@@ -15,3 +15,7 @@ fun arrays(){
     println(arrayInt.size)//for size of array
     //arrayInt[4] gives index out of bound exception
 }
+
+fun subtractor(x:Int, y:Int){
+
+}
