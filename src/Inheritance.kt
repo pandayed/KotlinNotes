@@ -1,6 +1,8 @@
 fun phoneManager(){
     val phone1 = BasicPhone()
     phone1.call()
+    val doog = Labrador()
+    val cheems = RandomDog("GermanShepherd")
 }
 
 
@@ -43,5 +45,20 @@ class SpecialPhone():SmartPhone(){
     override fun takePicture() {
         println("Opening multiple cameras, taking picture")
     }
+
+}
+
+//class with parametrized primary constructor
+open class Dog(breed:String){
+
+}
+
+class Labrador():Dog("Labrador"){
+    fun sayMuName(){
+        println("Doggo")
+    }
+}
+
+class RandomDog(val breed:String):Dog(breed){
 
 }
