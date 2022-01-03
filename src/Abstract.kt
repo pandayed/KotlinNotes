@@ -21,3 +21,5 @@ class HP():Laptop(){
 }
 
 
+//abstract: having no definition
+//concrete: having definition

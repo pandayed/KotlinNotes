@@ -1,4 +1,4 @@
 fun main(){
-    shapeManager()
+    sweetManager()
 }
 //kotlin is case-sensitive
