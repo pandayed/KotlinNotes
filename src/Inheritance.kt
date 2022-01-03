@@ -50,15 +50,25 @@ class SpecialPhone():SmartPhone(){
 
 //class with parametrized primary constructor
 open class Dog(breed:String){
-
+    open fun bark(){
+        println("Bark")
+    }
 }
 
 class Labrador():Dog("Labrador"){
-    fun sayMuName(){
+    fun sayMyName(){
         println("Doggo")
     }
 }
 
 class RandomDog(val breed:String):Dog(breed){
-
+    override fun bark() {
+        //super keyword lets us call the parent's method
+        super.bark()
+        println("Bark loud")
+    }
+    //just like properties/methods we can also override getters and setters
 }
+
+//Every class in Kotlin default parent Any class
+//It has many methods which are all open and hence can be overrided
