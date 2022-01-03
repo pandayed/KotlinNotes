@@ -12,6 +12,10 @@ fun shapeManager(){
     println(c2.area())
     println(s2.area())
 
+    //we can pass shape object as well as any child class object to printArea
+    //child can be in place of parent but vice versa is not true
+    printArea(c2)
+
 }
 
 open class Shape(){
@@ -32,6 +36,15 @@ class Square(val side:Double):Shape(){
     }
 }
 
+class Triangle(val base:Double, val height:Double):Shape(){
+    override fun area(): Double {
+        return 0.5*base*height
+    }
+}
+
+fun printArea(shape: Shape){
+    println(shape.area())
+}
 //Benefit of Polymorphism
 fun calculateArea(){
     val shapes: Array<Shape> = arrayOf(Circle(1.1), Square(2.2))
@@ -41,3 +54,4 @@ fun calculateArea(){
         println(s.area())
     }
 }
+//when we call a member the member is checked in current class then in parent then in parent's parent and so on
