@@ -1,4 +1,4 @@
 fun main(){
-    sweetManager()
+    typeCheckingAndSmartCasting()
 }
 //kotlin is case-sensitive
