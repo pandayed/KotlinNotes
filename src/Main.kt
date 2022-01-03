@@ -1,4 +1,4 @@
 fun main(){
-    objectHandler()
+    companionObjHandler()
 }
 //kotlin is case-sensitive
