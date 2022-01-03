@@ -11,7 +11,8 @@ class Car(val name:String, val type:String, var kmRan:Int){
 class Person(var firstName:String, middleName:String){
     //firstName is a property, middleName is a parameter
 
-    // properties must be initialized
+    //properties must be initialized
+    //initializing property saves us from runtime error which happens in many languages
     var name:String = "Lal Bihari"
     val age:Int = 16
     //if the properties are needed to be set while object declaration only, then better put these properties in primary constructor

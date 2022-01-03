@@ -1,5 +1,4 @@
 fun main(){
-    println("Hello World")
-    incrementDecrement()
+    classManager()
 }
 //kotlin is case-sensitive
