@@ -1,4 +1,4 @@
 fun main(){
-    phoneManager()
+    shapeManager()
 }
 //kotlin is case-sensitive
