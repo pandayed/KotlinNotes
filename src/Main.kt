@@ -1,4 +1,4 @@
 fun main(){
-    typeCheckingAndSmartCasting()
+    objectHandler()
 }
 //kotlin is case-sensitive
