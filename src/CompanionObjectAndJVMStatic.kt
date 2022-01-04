@@ -30,4 +30,4 @@ class MyClass(){
 
 }
 
-//compaion objects are used for factory patters
+//companion objects are used for factory patters
