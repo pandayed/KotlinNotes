@@ -1,5 +1,5 @@
 fun main(){
-    collectionManager()
+    lambdaHandler()
 }
 //1. kotlin is case-sensitive.
 //2. execution in kotlin starts with main function (like C, C++ etc).
