@@ -1,13 +1,14 @@
 # LearningKotlin
-This repository contains the precise code I saved while learning Kotlin so that in future I can revise easily.  
+This repository contains the **precise code** I saved while learning Kotlin so that in future I can revise easily.  
   
-The code has necessary comments for understading the topic.
+The code has **necessary comments** for understading the topic.
   
 Enough explanation comments have been added so that anyone having clear thoughts about programming fundamentals like variables, functions etc in any language like C++ and Java can learn Kotlin by reading the comments and running the code.  
   
-If you wish to learn Kotlin and have done some code in another language, you can consider this repository as a primary learing resource.  
+If you wish to learn Kotlin and have done some code in another language, you can **consider this repository as a primary learing resource**. 
+  
 I will be making the repo better with suggestions and adding more while learing more.  
   
 Suggestions welcome at lalbiharipandeyg@gmail.com
 
-If you are using the repo or have thoughts about using the repo in future, you can consider giving it a star.
+If you are using the repo or have thoughts about using the repo in future, **you can consider giving it a star**.
