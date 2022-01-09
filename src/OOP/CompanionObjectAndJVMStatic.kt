@@ -1,3 +1,5 @@
+package OOP
+
 fun companionObjHandler(){
     MyClass.MyObject1.message1()
     MyClass.message2()

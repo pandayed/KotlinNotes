@@ -1,3 +1,16 @@
+fun dataTypes(){
+
+    var score : Int = 10
+    var temperature: Float = 12F //12f will also work
+    var moles: Double = 2.22334455
+    var name : String = "Lal Bihari Pandey"
+    var isItRaining : Boolean = false
+
+    //Float datatype values must end with F or f
+
+}
+
+
 fun varAndVal(){
 
     //ctrl+shift+p on identifier shows its datatype
@@ -15,15 +28,3 @@ fun varAndVal(){
     //val or var both need not be initialized, but for that we need to specify datatype
 }
 
-fun dataTypes(){
-
-    var score : Int = 10
-    var temperature: Float = 12F
-    var moles: Double = 2.2233445566
-    var name : String = "Lal Bihari Pandey"
-    var isItRaining : Boolean = false
-
-    //Float datatype values must end with F or f
-
-
-}

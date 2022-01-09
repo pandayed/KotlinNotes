@@ -1,9 +1,11 @@
 fun main(){
-    genericsHandler()
+    println("Hello World");
 }
+
+
 //1. kotlin is case-sensitive.
 //2. execution in kotlin starts with main function (like C, C++ etc).
-//3. semicolons are optional at end of statements (no need to put, but if you put then it will ignore). //it has few exceptions
+//3. semicolons are not necessary at end of statements (no need to put, but if you put then it will ignore).
 
 
 
