@@ -16,6 +16,8 @@ fun arithmeticOperators(){
     //.plus
     val d = a.plus(b)
 
+    relationalOperators()
+
 }
 
 fun relationalOperators(){
@@ -31,6 +33,8 @@ fun relationalOperators(){
 
     println(a==b)
     println(a!=b)
+
+    incrementDecrement()
 }
 
 fun incrementDecrement(){
@@ -45,6 +49,8 @@ fun incrementDecrement(){
     println(--c)
     println(d--)
 
+    logicalOperators()
+
 }
 
 fun logicalOperators(){
@@ -55,6 +61,8 @@ fun logicalOperators(){
     println(condition1 && condition2)
     println(!condition1)
 
+
+    //Short circuit
     var a = 10
     val result1 = true || ++a==11
     println(a)

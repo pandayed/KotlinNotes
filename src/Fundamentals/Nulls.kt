@@ -1,21 +1,23 @@
 fun nullHandler(){
     //? makes a nullable type
-    val gender : String? = null
-    val num: Int? = null
+    var gender : String? = null
+    var num: Int? = null
 
     //safe call operator ?
     //the function toUpperCase will only be called if gender is not null
     gender?.toUpperCase()
 
     //for multiple statements after null check let is used with ?
-    gender?.let {
+    gender = "MALE"
+    gender.let {
         println(gender)
-        println("Not NUll")
+        println("My Gender is : ")
+        println("May or may not be null")
         println(it)//it points the variable to which this let block belongs
     }
     //let can be called with null and non-null all
-    val n = 10
-    n.let{
+    num = 10
+    num.let{
         println(it)
         println(num)
         println(it.toString())

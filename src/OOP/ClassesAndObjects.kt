@@ -11,7 +11,7 @@ class Car(val name:String, val type:String, var kmRan:Int){
 class Person(var firstName:String, middleName:String){
     //firstName is a property, middleName is a parameter
 
-    //properties must be initialized
+    //properties must be initialized.
     //initializing property saves us from runtime error which happens in many languages
     var name:String = "Lal Bihari"
     val age:Int = 16
@@ -25,8 +25,8 @@ class Person(var firstName:String, middleName:String){
     init{
         println("Hey 2")
     }
-    //secondry constructor
-    //secondry constructor must call primary constructor
+    //secondary constructor:
+    //secondary constructor must call primary constructor
     //primary cons. is called using keyword this
     constructor(nickName:String):this("Lal", "Bihari")
 }

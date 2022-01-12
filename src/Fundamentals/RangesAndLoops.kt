@@ -8,6 +8,8 @@ fun ranges(){
     val result2 = 1 in 1 until 5 //1, 2, 3, 4, //5 excluded
     //in operator can be used to check if number lies in range or not
 
+    loops()
+
 }
 
 fun loops(){

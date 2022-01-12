@@ -22,7 +22,7 @@ fun ifElseIf(){
     //the above code gives error and can not be executed
 
     //if else can return values
-    val result  = if(condition1){
+    val result = if(condition1){
         "Condition one is true"
     }else if(condition2){
         "Condition two is true"
@@ -31,11 +31,14 @@ fun ifElseIf(){
     }
     //the last expression of block is the return expression
     println(result)
+
+    switchCase()
 }
 
 fun switchCase(){
     //In place of switch-case we have when
-    when(10){
+    val n = 10
+    when(n){
         10->{
             println("The value is 10")
         }
