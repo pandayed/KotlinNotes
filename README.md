@@ -1,4 +1,4 @@
-# LearningKotlin
+# Kotlin Notes
 This repository contains the **precise code** I saved while learning Kotlin so that in future I can revise easily.  
   
 The code has **necessary comments** for understanding the topic.
