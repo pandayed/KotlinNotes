@@ -26,4 +26,12 @@ fun collectionManager(){
     }
     val teachers = mapOf(1 to "Rakesh", 2 to "Manoj") //to operator is used to map key values in immutable maps
 
+
+    //Pairs
+    val myPair = Pair("Value 1", 2)
+    //decomposing pair
+    val (a, b) = myPair
+    print(a)
+    print(b)
+
 }
