@@ -20,3 +20,4 @@ If you are using the repo or have thoughts about using the repo in the future, *
 - Functions
   * Lambda Functions
   * Extension Functions
+  * Traililng Lambdas
