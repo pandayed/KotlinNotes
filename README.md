@@ -24,3 +24,4 @@ If you are using the repo or have thoughts about using the repo in the future, *
   * Extension Functions
   * Traililng Lambdas
   * Suspending Functions
+  * Higher Order Functions
