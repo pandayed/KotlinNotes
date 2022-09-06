@@ -15,3 +15,8 @@ I will be making the repo better with suggestions and adding more while learning
 Suggestions welcome at lalbiharipandeyg@gmail.com
 
 If you are using the repo or have thoughts about using the repo in the future, **you can consider giving it a star**.
+<hr>
+
+- Functions
+  * Lambda Functions
+  * Extension Functions
