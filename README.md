@@ -17,7 +17,9 @@ Suggestions welcome at lalbiharipandeyg@gmail.com
 If you are using the repo or have thoughts about using the repo in the future, **you can consider giving it a star**.
 <hr>
 
-[Kotlin Official Course](https://play.kotlinlang.org/byExample/overview)
+- Kotlin Official Resources
+  * [Learn Kotlin By Example](https://play.kotlinlang.org/byExample/overview) (Notes and Examples)
+  * [Kotlin Koans](https://play.kotlinlang.org/byExample/overview) (Exercises)
 
 - Functions
   * Lambda Functions
