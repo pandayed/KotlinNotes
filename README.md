@@ -1,5 +1,5 @@
 # Kotlin Notes
-This repository contains the **precise code** I saved while learning Kotlin so that in future I can revise easily.  
+This repository contains the **precise code**, I saved while learning Kotlin so that in future I can revise easily.  
   
 The code has **necessary comments** for understanding the topic.
   
@@ -7,8 +7,7 @@ Enough explanation comments have been added so that anyone having clear thoughts
   
 If you wish to learn Kotlin and have done some code in another language, you can **consider this repository as a primary learing resource**. 
   
-Although the fundamentals and a lot of concepts have already been added, but if you wish to add more, please feel free to fork, make changes and send pull requests.
-I will definately merge to make the repo better.
+Although the fundamentals and a lot of concepts have already been added, but if you wish to add more, feel free to fork, make changes and send pull requests.
 
 I will be making the repo better with suggestions and adding more while learning more.  
   
@@ -17,13 +16,15 @@ Suggestions welcome at lalbiharipandeyg@gmail.com
 If you are using the repo or have thoughts about using the repo in the future, **you can consider giving it a star**.
 <hr>
 
+[IntilliJ IDEA](https://www.jetbrains.com/idea/download/#section=windows)
+
 - Kotlin Official Resources
   * [Learn Kotlin By Example](https://play.kotlinlang.org/byExample/overview) (Notes and Examples)
   * [Kotlin Koans](https://play.kotlinlang.org/byExample/overview) (Exercises)
 
-- Functions
+- Different types of Functions in Kotlin
   * Lambda Functions
+  * Trailing Lambdas
   * Extension Functions
-  * Traililng Lambdas
   * Suspending Functions
   * Higher Order Functions
