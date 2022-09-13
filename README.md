@@ -3,11 +3,7 @@ This repository contains the **precise code**, I saved while learning Kotlin so 
   
 The code has **necessary comments** for understanding the topic.
   
-Enough explanation comments have been added so that anyone having clear thoughts about programming fundamentals like variables, functions etc in any language like C++ or Java can learn Kotlin by reading the comments and executing the code.  
-  
-If you wish to learn Kotlin and have done some code in another language, you can **consider this repository as a primary learing resource**. 
-  
-Although the fundamentals and a lot of concepts have already been added, but if you wish to add more, feel free to fork, make changes and send pull requests.
+Although a lot of concepts have already been added, but if you wish to add more, feel free to fork, make changes and send pull requests.
 
 I will be making the repo better with suggestions and adding more while learning more.  
   
