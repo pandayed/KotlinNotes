@@ -15,6 +15,7 @@ If you are using the repo or have thoughts about using the repo in the future, *
 [IntilliJ IDEA](https://www.jetbrains.com/idea/download/#section=windows)
 
 [Kotlin Coding Conventions](https://kotlinlang.org/docs/coding-conventions.html)
+[Google Java Style](https://github.com/google/google-java-format) (Another coding style used by Google)
 
 - Kotlin Official Resources
   * [Learn Kotlin By Example](https://play.kotlinlang.org/byExample/overview) (Notes and Examples)
