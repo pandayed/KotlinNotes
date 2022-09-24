@@ -14,6 +14,8 @@ If you are using the repo or have thoughts about using the repo in the future, *
 
 [IntilliJ IDEA](https://www.jetbrains.com/idea/download/#section=windows)
 
+[Kotlin Coding Conventions](https://kotlinlang.org/docs/coding-conventions.html)
+
 - Kotlin Official Resources
   * [Learn Kotlin By Example](https://play.kotlinlang.org/byExample/overview) (Notes and Examples)
   * [Kotlin Koans](https://play.kotlinlang.org/byExample/overview) (Exercises)
