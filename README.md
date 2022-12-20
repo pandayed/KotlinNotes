@@ -28,6 +28,7 @@ If you are using the repo or have thoughts about using the repo in the future, *
   * Suspending Functions
   * Higher Order Functions : funtions which accept and/or return funtions
   * Scope Functions : let, run, with, apply, and also
+  * Infix functions
 - OOP
   * Nested Classes
   * Inner Classes
