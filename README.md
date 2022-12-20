@@ -29,10 +29,13 @@ If you are using the repo or have thoughts about using the repo in the future, *
   * Higher Order Functions : funtions which accept and/or return funtions
   * Scope Functions : let, run, with, apply, and also
 - OOP
+  * Nested Classes
+  * Inner Classes
   * Companion Object
   * Data Class
   * Interfaces
   * Visibility Modifiers
     - private
     - public
+    - open
 - Coroutines
