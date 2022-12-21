@@ -1,10 +1,13 @@
+import Coroutines.asyncCoroutine
 import Coroutines.coroutineManager
+import Coroutines.handleSuspend
 
 fun main(){
 //    println("Hello World")
 
-    coroutineManager()
+//    asyncCoroutine()
 
+    handleSuspend()
 
 //    varAndVal()
 //
