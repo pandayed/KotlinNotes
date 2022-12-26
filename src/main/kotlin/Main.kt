@@ -3,11 +3,15 @@ import Coroutines.coroutineManager
 import Coroutines.handleSuspend
 
 fun main(){
+
+    val cities = listOf("Jeddah", "Bengaluru", "Shenzhen", "Abu Dhabi", "Mountain View", "Tripoli", "Bengaluru", "Lima", "Mandalay", "Tripoli")
+    val oneWordCities = cities.toSet().toList().filter { !it.contains(" ")}.sorted()
+    println(oneWordCities[1])
 //    println("Hello World")
 
 //    asyncCoroutine()
 
-    handleSuspend()
+//    handleSuspend()
 
 //    varAndVal()
 //
