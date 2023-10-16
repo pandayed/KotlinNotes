@@ -9,7 +9,7 @@ fun phoneManager(){
 //by default classes are final
 //final means class cannot be inherited
 //to make a class from which another class can be inherited we need to make the class open
-//kotlin does not allow a class to have more than one parent like C++
+//kotlin does not allow a class to have more than one parent like C++, or multiple inheritance is not allowed
 open class Phone(){
 
     init{
